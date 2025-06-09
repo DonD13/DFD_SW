@@ -2,7 +2,7 @@
   "version": "2.4.1",
   "summary": {
     "title": "New Threat Model",
-    "owner": "",
+    "owner": "Don David",
     "description": "",
     "id": 0
   },
@@ -1491,7 +1491,7 @@
       }
     ],
     "diagramTop": 2,
-    "reviewer": "",
+    "reviewer": "Ms. K",
     "threatTop": 18
   }
 }
