@@ -722,7 +722,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Save Order",
+              "name": "Save Order \nDetails",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -735,7 +735,7 @@
               "threats": []
             },
             "labels": [
-              "Save Order"
+              "Save Order \nDetails"
             ],
             "id": "2e2c59f6-3bdb-49a3-9ef1-80c049ac6dba",
             "source": {
