@@ -1,0 +1,16 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Practical Exercise 1",
+    "owner": "Don David",
+    "description": "Threat Model Document - Coffee Ordering Web App",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Ms. Kay",
+    "threatTop": 0
+  }
+}
