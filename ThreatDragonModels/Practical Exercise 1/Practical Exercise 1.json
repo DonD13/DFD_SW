@@ -1334,13 +1334,6 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2287,6 +2280,70 @@
               {
                 "x": 630,
                 "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Untrusted Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Untrusted Boundary"
+            ],
+            "id": "2439d193-accd-4921-9226-2a7f488284ac",
+            "source": {
+              "x": 540,
+              "y": 100
+            },
+            "target": {
+              "x": 470,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trusted Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trusted Boundary"
+            ],
+            "id": "6381f1d0-f8e2-4b36-93c7-34a71f382ffb",
+            "source": {
+              "x": 510,
+              "y": 400
+            },
+            "target": {
+              "x": 980,
+              "y": 390
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 420
               }
             ]
           }
