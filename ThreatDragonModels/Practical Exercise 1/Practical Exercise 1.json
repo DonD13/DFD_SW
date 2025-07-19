@@ -846,14 +846,14 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "c7f1ab4a-0c63-4279-b12e-4ed6241e5a91",
+            "id": "9cf274e6-79f2-4c5c-a54a-f3dafbe9cc85",
             "source": {
-              "x": 770,
-              "y": 70
+              "x": 470,
+              "y": 340
             },
             "target": {
-              "x": 970,
-              "y": 390
+              "x": 870,
+              "y": 410
             }
           },
           {
@@ -872,14 +872,14 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "9cf274e6-79f2-4c5c-a54a-f3dafbe9cc85",
+            "id": "c7f1ab4a-0c63-4279-b12e-4ed6241e5a91",
             "source": {
-              "x": 470,
-              "y": 340
+              "x": 820,
+              "y": 60
             },
             "target": {
-              "x": 870,
-              "y": 410
+              "x": 970,
+              "y": 390
             }
           }
         ],
