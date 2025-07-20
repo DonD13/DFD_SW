@@ -2369,7 +2369,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Manager Side"
+                "text": "Manager Staff \nInterface"
               },
               "body": {
                 "stroke": "#333333",
@@ -2379,6 +2379,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2462,10 +2463,9 @@
               ]
             },
             "id": "9504f694-fe56-4c7b-a2d6-29175747b87e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Manager Side",
+              "name": "Manager Staff \nInterface",
               "description": "(Frontend)",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2496,6 +2496,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2579,7 +2580,6 @@
               ]
             },
             "id": "4cedbedf-de41-498b-b83d-3a2907231412",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
@@ -2616,6 +2616,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2699,7 +2700,6 @@
               ]
             },
             "id": "dbf4bdac-7b96-4bb1-90c5-7215a12bba49",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Third-Party Payment \nService",
@@ -2736,6 +2736,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -2819,7 +2820,6 @@
               ]
             },
             "id": "0813104d-0b14-41ae-bb83-c7c00b3cd8fa",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Database Server",
