@@ -2372,8 +2372,8 @@
                 "text": "Manager Staff \nInterface"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2470,9 +2470,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "fb0a3ab2-fad0-48aa-ba7a-a590c66e9f16",
+                  "title": "Staff Account Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker could impersonate staff to manipulate order statuses,\naccess sales reports, or modify menu items and application\nconfigurations.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -2489,8 +2507,8 @@
                 "text": "Web Application\nServer"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2587,12 +2605,125 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "49fc8428-6b8b-4c18-ac8c-b1cb838616f1",
+                  "title": "Staff Account Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker could impersonate staff to manipulate order statuses,\naccess sales reports, or modify menu items and application\nconfigurations.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                },
+                {
+                  "id": "b9964c8e-eeb3-4f3b-90f3-7964c07acb69",
+                  "title": "Sales Report Tampering ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Unauthorized individuals could alter sales data in the MongoDB\nDatabase, leading to falsified reports.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                },
+                {
+                  "id": "9071143c-5d9b-42eb-b7f6-db8cd170544c",
+                  "title": "Staff Action Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Staff members (Barista, Manager, Administrator) could deny performing\nactions if audit logs are insufficient, not immutable, or can be tampered\nwith.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "fa604324-5d6a-4fba-b1c7-dabb94d34082",
+                  "title": "Staff Credential Disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Exposure of usernames, passwords, or session tokens for staff members\ndue to insecure storage or unencrypted transmission.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                },
+                {
+                  "id": "269d6272-a49d-4e0a-b10d-375bb255d9d0",
+                  "title": "Sales Data Disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to sales reports or underlying aggregated sales\ndata.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                },
+                {
+                  "id": "f823f931-49c6-4649-aeff-d116a4853242",
+                  "title": "Web Application Server DoS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker could flood the Web Application Server with excessive\nrequests, making it unavailable.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
+                },
+                {
+                  "id": "9f8e563b-4d4c-4cc9-88af-95d4775b4fe1",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database,\nmaking it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                },
+                {
+                  "id": "9792894d-c500-486d-9111-4d2383948db1",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator\nprivileges. ",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 43,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 2,
+                "denialOfService": 2,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -2726,11 +2857,13 @@
                 "text": "Database Server"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2827,13 +2960,85 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "07f87e48-06d0-42f9-93f5-dd9a043237e9",
+                  "title": "Sales Report Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Unauthorized individuals could alter sales data in the MongoDB\nDatabase, leading to falsified reports.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "50b85be8-24df-41b0-95ea-2b189c8211f6",
+                  "title": "Staff Action Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Staff members (Barista, Manager, Administrator) could deny performing\nactions if audit logs are insufficient, not immutable, or can be tampered\nwith.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                },
+                {
+                  "id": "742fa77f-b000-4ea6-bb61-c93043043e14",
+                  "title": "Staff Credential Disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Exposure of usernames, passwords, or session tokens for staff members\ndue to insecure storage or unencrypted transmission.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                },
+                {
+                  "id": "767c568c-827c-4752-a2ab-fc0ce76f5b84",
+                  "title": "Sales Data Disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to sales reports or underlying aggregated sales\ndata.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": ""
+                },
+                {
+                  "id": "f4c9beb9-e2c9-4b95-aef6-c9bb3637a1df",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database,\nmaking it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 2,
+                "denialOfService": 1
+              }
             }
           },
           {
@@ -3222,6 +3427,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "Ms. Kay",
-    "threatTop": 27
+    "threatTop": 43
   }
 }
