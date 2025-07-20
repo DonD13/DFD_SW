@@ -1334,6 +1334,13 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1347,7 +1354,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Barista Staff \nInterface"
+                "text": "Barista"
               },
               "body": {
                 "stroke": "red",
@@ -1443,7 +1450,7 @@
             "id": "ea626f4f-d0ee-4465-a201-3f4aa99f7dff",
             "data": {
               "type": "tm.Actor",
-              "name": "Barista Staff \nInterface",
+              "name": "Barista",
               "description": "(Frontend)",
               "isTrustBoundary": false,
               "outOfScope": false,
