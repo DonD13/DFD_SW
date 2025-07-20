@@ -2498,6 +2498,13 @@
                 "spoofing": 1,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2608,7 +2615,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
-              "description": "",
+              "description": "(Backend)",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3046,13 +3053,6 @@
                 "informationDisclosure": 2,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
