@@ -2369,7 +2369,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Manager Staff \nInterface"
+                "text": "Manager"
               },
               "body": {
                 "stroke": "red",
@@ -2465,7 +2465,7 @@
             "id": "9504f694-fe56-4c7b-a2d6-29175747b87e",
             "data": {
               "type": "tm.Actor",
-              "name": "Manager Staff \nInterface",
+              "name": "Manager",
               "description": "(Frontend)",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3039,6 +3039,13 @@
                 "informationDisclosure": 2,
                 "denialOfService": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
